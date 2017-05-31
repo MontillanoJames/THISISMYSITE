@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> KEESHOND </title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link href='https://fonts.googleapis.com/css?family=Covered By Your Grace' rel='stylesheet'>
+<style>
+body {
+    background-color: yellow;
+	background-repeat: no-repeat;
+	background-size: 720px 1800px;
+}
+</style>
+<style>
+body {margin:0;}
+.topnav {
+  overflow: hidden;
+  background-color: #F0985C;
+}
+.topnav a {
+  float: left;
+  display: block;
+  color: #F0985C
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+.topnav a:hover {
+  background-color: #F0985C;
+  color: white;
+}
+.topnav a.active {
+    background-color: ;
+    color: white;
+}
+</style>
+
+<style>
+body {
+    font-family: "Lato", sans-serif;
+}
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+.sidenav a:hover, .offcanvas a:focus{
+    color: #f1f1f1;
+}
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+#main {
+    transition: margin-left .5s;
+    padding: 16px;
+}
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+</style>
+<style>
+img {
+    display: block;
+    margin: auto;
+}
+</style>
+<style>
+h1 {
+    font-family: 'Covered By Your Grace';font-size: 80px;text-align: center;
+}
+</style>
+h2 {
+    font-family: 'Averia Gruesa Libre';font-size: 22px;
+}
+</head>
+<body>
+<div class="topnav">
+<a href="index.html" title="DOGS">HOME</a>
+  <a href="PICS.html">PICS</a>
+  <a href="VIDEOS.html" title="DOG VIDEOS">VIDEOS</a>
+  <a href="GIF.html">GIF</a>
+</div>
+
+<div style="padding-left:16px">
+ 
+</div>
+<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a class="active href="keeshond.html">Keeshond</a>
+  <a href="#">Papillon</a>
+  <a href="#">Silky Terrier</a>
+  <a href="#">Maltese</a>
+ <a href="#">The Hound of the Baskervilles</a>
+  <a href="#">Jinmenken</a>
+  <a href="#">Teach me How to Doggie</a>
+  <a href="#">FUN</a>
+</div>
+
+<div id="main">
+  <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; OPEN FOR MORE</span>
+</div>
+
+<script>
+function openNav() {
+    document.getElementById("mySidenav").style.width = "250px";
+    document.getElementById("main").style.marginLeft = "250px";
+}
+function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+    document.getElementById("main").style.marginLeft= "0";
+}
+</script>
+
+
+<script>
+var slideIndex = 1;
+showDivs(slideIndex);
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";  
+  }
+  x[slideIndex-1].style.display = "block";  
+}
+</script>
+<h1> KEESHOND </h1>
+<img src="http://cdn1-www.dogtime.com/assets/uploads/gallery/keeshond-dog-breed-pictures/8-layingforward.jpg" alt="WHAT" style="width:50%">
+<h2> The Keeshond (pronounced KAYZ-hawnd) is a medium-sized dog with an impressive gray, black, and cream coat and a massive, plumed tail. He was known for years as the "Dutch Barge Dog" because of his role as companion and guardian on barges and small boats on Holland's many canals and rivers.
+
+<br> While the Keeshond will issue a stern bark when someone approaches his property, he's such a love that he'll readily accept anyone his owner brings into the household. In truth, he isn't a very effective guard dog.
+
+ <br> The Keeshond is a fan of cool weather. He likes spending time outside when the weather is crisp. However, he isn't a backyard dog; he's too people-oriented for that. He needs to live inside with his family and participate in all their activities.
+
+ <br> The Keeshond loves children and plays nicely with them (although, of course, adults should always supervise interactions between kids and any dog). The Keeshond also gets along well other dogs and pets if he is introduced to them at a young age.
+
+ <br> Besides being an excellent family pet, today's Keeshond can strut his stuff in the conformation ring, obedience ring, and rally competition. He's also sure-footed, which makes him a great agility competitor.
+
+
+<br> Read more at <a href="http://dogtime.com/dog-breeds/keeshond#S808oqGzHqxevYEu.99">http://dogtime.com/dog-breeds/keeshond#S808oqGzHqxevYEu.99</a> </h2>
+</body>
+</html> 
